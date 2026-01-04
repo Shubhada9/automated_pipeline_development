@@ -1,0 +1,26 @@
+This is cutadapt 1.18 with Python 2.7.18
+Command line parameters: -q 20 -o trimmed_sample_R1.fastq.gz -p trimmed_sample_R2.fastq.gz sample_R1.fastq.gz sample_R2.fastq.gz
+Processing reads on 1 core in paired-end legacy mode ...
+WARNING: Legacy mode is enabled. Read modification and filtering options
+*ignore* the second read. To switch to regular paired-end mode,
+provide the --pair-filter=any option or use any of the
+-A/-B/-G/-U/--interleaved options.
+Finished in 0.42 s (415504 us/read; 0.00 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:                  1
+  Read 1 with adapter:                       0 (0.0%)
+  Read 2 with adapter:                       0 (0.0%)
+Pairs written (passing filters):             1 (100.0%)
+
+Total basepairs processed:            72 bp
+  Read 1:            36 bp
+  Read 2:            36 bp
+Quality-trimmed:                       0 bp (0.0%)
+  Read 1:             0 bp
+  Read 2:             0 bp
+Total written (filtered):             72 bp (100.0%)
+  Read 1:            36 bp
+  Read 2:            36 bp
+
